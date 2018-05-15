@@ -1,0 +1,32 @@
+
+Tue Apr  4 22:32:25 2017  00:00:23  noop_test               189 ni0131  Sequence sucessfully processed
+Wed Apr  5 01:05:45 2017  00:00:00  noop_test               189 N/A  run_sasf << ERROR>>: Unknown type nipc for linda mdevnsyt1
+Wed Apr  5 01:06:20 2017  00:01:07  noop_test               189 ne0014  run_sasf << ERROR>> Extracting  noop_test from pdb bin EC
+Wed Apr  5 01:08:42 2017  00:00:01  noop_test               189 nn0001  run_sasf << ERROR>> Extracting  noop_test from pdb bin SCI
+Wed Apr  5 01:32:38 2017  00:00:00  noop_test               189 N/A  run_sasf << ERROR>>: Unknown type nipc for linda mdevnsyt1
+Wed Apr  5 01:45:35 2017  00:00:01  noop_test.sasf          189 N/A  run_sasf << ERROR>>: Unknown PDB bin for linda mdevnsyt1
+Wed Apr  5 01:47:01 2017  00:00:00  noop_test               189 N/A  run_sasf << ERROR>>: Unknown PDB bin for linda mdevnsyt1
+Wed Apr  5 21:18:50 2017  00:00:22  noop_test               189 ni0132  Sequence sucessfully processed
+Wed Apr  5 21:35:25 2017  00:00:42  noop_test               189 nn0010  run_sasf << ERROR>> Extracting  noop_test from pdb bin SCI
+Wed Apr  5 21:45:19 2017  00:00:00  noop_test               189 N/A  run_sasf << ERROR>>: Unknown PDB bin for linda mdevnsyt1
+Wed Apr  5 21:46:25 2017  00:00:01  noop_test               189 nn0011  run_sasf << ERROR>> Extracting  noop_test from pdb bin SCI
+Wed Apr  5 21:50:24 2017  00:00:01  noop_test_apss          189 nn0012  run_sasf << ERROR>> Extracting  noop_test_apss from pdb bin SCI
+Wed Apr  5 21:55:10 2017  00:00:25  noop_test               189 ni0133  Sequence sucessfully processed
+Wed Apr  5 22:00:04 2017  00:00:00  noop_test_apss          189 N/A  run_sasf << ERROR>>: Unknown PDB bin for linda mdevnsyt1
+Wed Apr  5 22:02:48 2017  00:00:01  noop_test_apss          189 ni0134  run_sasf << ERROR>> Extracting  noop_test_apss from pdb bin SCT
+Wed Apr  5 22:16:14 2017  00:00:01  noop_test_apss          189 nn0013  run_sasf << ERROR>> Extracting  noop_test_apss from pdb bin APSS
+Wed Apr  5 22:18:18 2017  00:00:26  noop_test               189 ni0135  Sequence sucessfully processed
+Wed Apr  5 22:21:03 2017  00:00:01  apss_noop_test          189 nn0014  run_sasf << ERROR>> Extracting  apss_noop_test from pdb bin APSS
+Wed Apr  5 22:35:06 2017  00:00:05  noop_test               189 nn0015  run_sasf << ERROR>> Sequence processing failed
+Wed Apr  5 23:32:57 2017  00:00:01  noop_test               189 ne0015  run_sasf << ERROR>> Extracting  noop_test from pdb bin EC
+Wed Apr  5 23:46:27 2017  00:00:00  noop_test               189 ne0016  run_sasf << ERROR>> Extracting  noop_test from pdb bin EC
+Wed Apr 12 20:51:58 2017  00:00:26  NSY.NOOP.test2          189 ni0136  Sequence sucessfully processed
+Wed Apr 26 21:00:13 2017  00:00:00  noop_ec_189             189 N/A  run_sasf << ERROR>>: Unknown PDB bin for linda mdevnsyt1
+Wed Apr 26 21:10:06 2017  00:00:22  noop_test               189 ni0137  Sequence sucessfully processed
+Wed Apr 26 21:13:39 2017  00:00:05  noop_ec_189             189 nn0016  run_sasf << ERROR>> Sequence processing failed
+Wed Apr 26 21:28:03 2017  00:00:21  noop_ec_189             189 ne0017  Sequence sucessfully processed
+Wed Apr 26 21:41:01 2017  00:00:22  noop_ec_189             189 ne0018  Sequence sucessfully processed
+Wed Apr 26 21:45:20 2017  00:00:21  noop_ec_189             189 ne0019  Sequence sucessfully processed
+Wed Apr 26 22:08:54 2017  00:00:22  noop_ec_189             189 ne0020  Sequence sucessfully processed
+Tue Oct 24 22:56:53 2017  00:00:21  nsy.orf.d_seq_rfsw4_uns 189 ni0138  Sequence sucessfully processed
+Thu Jan  4 17:45:04 2018  00:00:01  nsy.ric.noop.r1         189 ni0139  run_sasf << ERROR>> Extracting  nsy.ric.noop.r1 from pdb bin SCT
