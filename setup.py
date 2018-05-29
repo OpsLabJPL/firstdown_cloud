@@ -3,6 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='FirstDownCloud',
     version='0.0.1',
+    url='https://github.jpl.nasa.gov/mpowell/FirstDownCloud',
     license='',
     author='Mark Powell',
     author_email='Mark.W.Powell@jpl.nasa.gov',
