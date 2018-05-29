@@ -1,13 +1,22 @@
 
 from email.utils import parsedate_tz
+import json
+from Crypto.Cipher import AES
 
 class ASPLog:
+
+
+    """
+    Initialize with an empty log lines array.
+    """
+    def __init__(self):
+        self.lines = []
 
     """
     Return a JSON object from the ASP auto_processed.log file data.
     """
     def parselog(self, filename):
-        lines = []
+        self.lines = []
         with open(filename, "r") as logfile:
             for line in logfile:
                 status = SequenceStatus()
@@ -24,8 +33,28 @@ class ASPLog:
                 for word in fields[9:]:
                     status.statusMessage += word + " "
                 status.statusMessage = status.statusMessage.rstrip()
-                lines.append(line)
-        return lines
+                self.lines.append(line)
+        return self.lines
+
+    """
+    Return an AES encrpyted string of text using the provided key
+    """
+    def encrypt(self, key):
+        linesJson = json.dumps(self.lines)
+        lengthDivisibleBy16 = (len(linesJson)/16 + 1) * 16
+        linesJson = linesJson.ljust(lengthDivisibleBy16)
+
+        cipher = AES.new(key, AES.MODE_ECB)
+        return cipher.encrypt(linesJson)
+
+
+    """
+    Return an AES decrpyted string of text using the provided key
+    """
+    def decrypt(self, encryptedText, key):
+        cipher = AES.new(key, AES.MODE_ECB)
+        linesJson = cipher.decrypt(encryptedText)
+        return json.loads(linesJson)
 
 class SequenceStatus:
 
