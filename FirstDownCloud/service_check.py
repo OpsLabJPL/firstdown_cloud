@@ -1,7 +1,8 @@
 
 import datetime
 import json
-import s3
+from FirstDownCloud import s3
+
 
 def expected_output_is_present(command, expected_text):
     console_output = subprocess.check_output(command)
