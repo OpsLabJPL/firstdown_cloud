@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13e9dc0-4622-4eca-9e43-718fbc771f27" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_service_check.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstdown_cloud/s3.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstdown_cloud/s3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstdown_cloud/service_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstdown_cloud/service_check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/aspLog_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_aspLog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/s3_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_s3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,28 +20,48 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/FirstDownCloud$Unittests_for_test_ASPLog_TestASPLog.coverage" NAME="Unittests for tests.aspLog_test.TestASPLog Coverage Results" MODIFIED="1527608360839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FirstDownCloud$Unittests_for_s3_test_S3TestCase_test_get_client.coverage" NAME="Unittests for s3_test.S3TestCase.test_get_client Coverage Results" MODIFIED="1527610581189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/FirstDownCloud$Unittests_in_tests.coverage" NAME="Unittests in tests Coverage Results" MODIFIED="1527625979427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/FirstDownCloud$Unittests_in_aspLog_test_py.coverage" NAME="Unittests in aspLog_test.py Coverage Results" MODIFIED="1527698607119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/FirstDownCloud$Unittests_in_tests.coverage" NAME="Unittests in tests Coverage Results" MODIFIED="1527699520926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/FirstDownCloud$Unittests_in_service_check_test_py.coverage" NAME="Unittests in service_check_test.py Coverage Results" MODIFIED="1527699078465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/FirstDownCloud$Unittests_for_test_ASPLog_TestASPLog_test_parselog.coverage" NAME="Unittests for test_ASPLog.TestASPLog.test_parselog Coverage Results" MODIFIED="1527091036618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FirstDownCloud$setup.coverage" NAME="setup Coverage Results" MODIFIED="1527693015184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FirstDownCloud$setup.coverage" NAME="setup Coverage Results" MODIFIED="1527695929735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FirstDownCloud$Unittests_in_test_hello_py.coverage" NAME="Unittests in test_hello.py Coverage Results" MODIFIED="1526343850011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FirstDownCloud$hello.coverage" NAME="hello Coverage Results" MODIFIED="1526340473702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.py">
+      <file leaf-file-name="test_aspLog.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/test_aspLog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="135">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="test_service_check.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_service_check.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+            <state relative-caret-position="465">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_s3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_s3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,20 +69,20 @@
       <file leaf-file-name="service_check.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/firstdown_cloud/service_check.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#1#16#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aspLog.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/firstdown_cloud/aspLog.py">
+      <file leaf-file-name="s3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/firstdown_cloud/s3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#1#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -90,8 +115,13 @@
         <option value="$PROJECT_DIR$/service_check.py" />
         <option value="$PROJECT_DIR$/tests/__init__.py" />
         <option value="$PROJECT_DIR$/FirstDownCloud/service_check.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/tests/test_service_check.py" />
+        <option value="$PROJECT_DIR$/firstdown_cloud/service_check.py" />
+        <option value="$PROJECT_DIR$/tests/service_check_test.py" />
+        <option value="$PROJECT_DIR$/firstdown_cloud/s3.py" />
+        <option value="$PROJECT_DIR$/tests/test_aspLog.py" />
       </list>
     </option>
   </component>
@@ -105,10 +135,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="297" />
-    <option name="y" value="218" />
+    <option name="x" value="298" />
+    <option name="y" value="23" />
     <option name="width" value="1774" />
-    <option name="height" value="1092" />
+    <option name="height" value="1287" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -124,6 +154,11 @@
             <path>
               <item name="FirstDownCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="FirstDownCloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstDownCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstDownCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FirstDownCloud" type="b2602c69:ProjectViewProjectNode" />
@@ -167,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.setup">
+  <component name="RunManager" selected="Python tests.Unittests in tests">
     <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FirstDownCloud" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,11 +222,11 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests in tests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for " type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="FirstDownCloud" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$USER_HOME$/venv/FirstDownCloud/bin/python" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -199,17 +234,49 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_service_check.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="FirstDownCloud" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_service_check.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in tests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="FirstDownCloud" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
       <item itemvalue="Python.setup" />
+      <item itemvalue="Python tests.Unittests for " />
       <item itemvalue="Python tests.Unittests in tests" />
+      <item itemvalue="Python tests.Unittests in test_service_check.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.setup" />
         <item itemvalue="Python tests.Unittests in tests" />
+        <item itemvalue="Python tests.Unittests in test_service_check.py" />
+        <item itemvalue="Python tests.Unittests for " />
+        <item itemvalue="Python.setup" />
       </list>
     </recent_temporary>
   </component>
@@ -259,57 +326,63 @@
       <option name="project" value="LOCAL" />
       <updated>1527692645942</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added long_description">
+      <created>1527695359365</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1527695359365</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_tests_aspLog_test_TestASPLog - 2018.05.29 at 08h 39m 10s.xml">
-      <configuration name="Unittests for tests.aspLog_test.TestASPLog" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_tests_aspLog_test_TestASPLog - 2018.05.29 at 08h 39m 20s.xml">
-      <configuration name="Unittests for tests.aspLog_test.TestASPLog" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_s3_test_S3TestCase_test_get_client - 2018.05.29 at 08h 43m 04s.xml">
-      <configuration name="Unittests for s3_test.S3TestCase.test_get_client" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_s3_test_S3TestCase_test_get_client - 2018.05.29 at 08h 44m 06s.xml">
-      <configuration name="Unittests for s3_test.S3TestCase.test_get_client" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_s3_test_S3TestCase_test_get_client - 2018.05.29 at 09h 15m 45s.xml">
-      <configuration name="Unittests for s3_test.S3TestCase.test_get_client" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_s3_test_S3TestCase_test_get_client - 2018.05.29 at 09h 16m 21s.xml">
-      <configuration name="Unittests for s3_test.S3TestCase.test_get_client" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_tests - 2018.05.29 at 09h 20m 41s.xml">
+    <history-entry file="Unittests_in_tests - 2018.05.30 at 09h 43m 14s.xml">
       <configuration name="Unittests in tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests - 2018.05.29 at 09h 21m 53s.xml">
+    <history-entry file="Unittests_in_aspLog_test_py - 2018.05.30 at 09h 43m 27s.xml">
+      <configuration name="Unittests in aspLog_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2018.05.30 at 09h 45m 07s.xml">
       <configuration name="Unittests in tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests - 2018.05.29 at 13h 12m 42s.xml">
+    <history-entry file="Unittests_in_tests - 2018.05.30 at 09h 46m 05s.xml">
       <configuration name="Unittests in tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests - 2018.05.29 at 13h 32m 59s.xml">
+    <history-entry file="Unittests_in_tests - 2018.05.30 at 09h 46m 51s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2018.05.30 at 09h 48m 53s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2018.05.30 at 09h 51m 04s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_service_check_test_py - 2018.05.30 at 09h 51m 35s.xml">
+      <configuration name="Unittests in service_check_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2018.05.30 at 09h 55m 32s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2018.05.30 at 09h 57m 49s.xml">
       <configuration name="Unittests in tests" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="297" y="218" width="1774" height="1092" extended-state="0" />
+    <frame x="298" y="23" width="1774" height="1287" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5011274" side_tool="true" visible="true" weight="0.35559922" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5016911" side_tool="true" visible="true" weight="0.34954658" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988726" visible="true" weight="0.35559922" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.26380697" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4983089" visible="true" weight="0.34954658" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" visible="true" weight="0.2632469" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20011275" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49919572" weight="0.3286219" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -320,6 +393,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49919572" weight="0.3286219" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,9 +411,44 @@
     <MESSAGE value="added S3 import" />
     <MESSAGE value="refactored package directory and moved everything into it" />
     <MESSAGE value="renamed to firstdown_cloud" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed to firstdown_cloud" />
+    <MESSAGE value="added long_description" />
+    <option name="LAST_COMMIT_MESSAGE" value="added long_description" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstdown_cloud/aspLog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#1#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstdown_cloud/service_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="e#1#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -349,7 +458,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hello.py" />
     <entry file="file://$PROJECT_DIR$/tests/hello_test.py" />
-    <entry file="file://$PROJECT_DIR$/tests/aspLog_test.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_aspLog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
@@ -392,7 +501,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/aspLog_test.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_aspLog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
@@ -410,54 +519,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/hello_test.py" />
     <entry file="file://$PROJECT_DIR$/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/tests/aspLog_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/s3_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/firstdown_cloud/s3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstdown_cloud/service_check.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/firstdown_cloud/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/firstdown_cloud/aspLog.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -469,17 +558,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
+    <entry file="file://$PROJECT_DIR$/firstdown_cloud/s3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="150">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/firstdown_cloud/service_check.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#1#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_service_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_s3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_aspLog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

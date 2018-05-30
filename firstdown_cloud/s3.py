@@ -23,6 +23,12 @@ def read_object(bucket, key):
     if response:
         return response['Body'].read()
 
+
+def put_object(bucket, key, body):
+    s3 = get_client()
+    s3.put_object(Bucket=bucket, Key=key, Body=body)
+
+
 def main():
     for bucket in list_buckets():
         print '[ {} ]'.format(bucket)

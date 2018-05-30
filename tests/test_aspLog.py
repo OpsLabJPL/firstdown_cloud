@@ -7,7 +7,7 @@ class TestASPLog(TestCase):
 
     def setUp(self):
         self.aspLog = ASPLog()
-        self.aspLog.parselog("tests/auto_processed.log")
+        self.aspLog.parselog("auto_processed.log")
         print "first line: "+self.aspLog.lines[0]
 
     def test_parselog(self):
