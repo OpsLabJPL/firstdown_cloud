@@ -8,6 +8,7 @@ setup(
     author='Mark Powell',
     author_email='Mark.W.Powell@jpl.nasa.gov',
     description='Python library for securely publishing JPL ops data to Govcloud.',
+    long_description='Python library for securely publishing JPL ops data to Govcloud.',
 
     packages=['firstdown_cloud'],
 
