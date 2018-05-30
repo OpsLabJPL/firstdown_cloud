@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='FirstDownCloud',
+    name='firstdown_cloud',
     version='0.0.1',
     url='https://github.jpl.nasa.gov/mpowell/FirstDownCloud',
     license='',
@@ -19,7 +19,7 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'fds3 = FirstDownCloud.s3:main'
+            'fds3 = firstdown_cloud.s3:main'
         ]
     }
 )

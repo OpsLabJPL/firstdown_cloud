@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from FirstDownCloud.aspLog import ASPLog
+from firstdown_cloud.aspLog import ASPLog
 
 
 class TestASPLog(TestCase):

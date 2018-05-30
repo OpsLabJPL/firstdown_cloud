@@ -4,7 +4,7 @@ import unittest
 
 from moto import mock_s3
 
-from FirstDownCloud.s3 import get_client, list_buckets, list_objects, read_object, main
+from firstdown_cloud.s3 import get_client, list_buckets, list_objects, read_object, main
 
 
 class S3TestCase(unittest.TestCase):

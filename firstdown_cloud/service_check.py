@@ -1,7 +1,7 @@
 
 import datetime
 import json
-from FirstDownCloud import s3
+from firstdown_cloud import s3
 
 
 def expected_output_is_present(command, expected_text):
