@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='firstdown_cloud',
@@ -9,7 +9,7 @@ setup(
     author_email='Mark.W.Powell@jpl.nasa.gov',
     description='Python library for securely publishing JPL ops data to Govcloud.',
 
-    packages=find_packages(exclude=['tests']),
+    packages=['firstdown_cloud'],
 
     test_suite='tests',
 

@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13e9dc0-4622-4eca-9e43-718fbc771f27" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstDownCloud/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstdown_cloud/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstDownCloud/aspLog.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstdown_cloud/aspLog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstDownCloud/s3.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstdown_cloud/s3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstDownCloud/service_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstdown_cloud/service_check.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/aspLog_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/aspLog_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/s3_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/s3_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,17 +18,26 @@
     <SUITE FILE_PATH="coverage/FirstDownCloud$Unittests_for_s3_test_S3TestCase_test_get_client.coverage" NAME="Unittests for s3_test.S3TestCase.test_get_client Coverage Results" MODIFIED="1527610581189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/FirstDownCloud$Unittests_in_tests.coverage" NAME="Unittests in tests Coverage Results" MODIFIED="1527625979427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/FirstDownCloud$Unittests_for_test_ASPLog_TestASPLog_test_parselog.coverage" NAME="Unittests for test_ASPLog.TestASPLog.test_parselog Coverage Results" MODIFIED="1527091036618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FirstDownCloud$setup.coverage" NAME="setup Coverage Results" MODIFIED="1527692581216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FirstDownCloud$setup.coverage" NAME="setup Coverage Results" MODIFIED="1527693015184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FirstDownCloud$Unittests_in_test_hello_py.coverage" NAME="Unittests in test_hello.py Coverage Results" MODIFIED="1526343850011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FirstDownCloud$hello.coverage" NAME="hello Coverage Results" MODIFIED="1526340473702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2025">
+              <caret line="135" column="12" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -51,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/firstdown_cloud/aspLog.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#1#37#0" expanded="true" />
               </folding>
@@ -84,11 +88,11 @@
         <option value="$PROJECT_DIR$/tests/aspLog_test.py" />
         <option value="$PROJECT_DIR$/tests/s3_test.py" />
         <option value="$PROJECT_DIR$/s3.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/service_check.py" />
         <option value="$PROJECT_DIR$/tests/__init__.py" />
         <option value="$PROJECT_DIR$/FirstDownCloud/service_check.py" />
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -102,10 +106,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="187" />
-    <option name="y" value="130" />
-    <option name="width" value="1865" />
-    <option name="height" value="923" />
+    <option name="x" value="297" />
+    <option name="y" value="218" />
+    <option name="width" value="1774" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -121,11 +125,6 @@
             <path>
               <item name="FirstDownCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="FirstDownCloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstDownCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstDownCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FirstDownCloud" type="b2602c69:ProjectViewProjectNode" />
@@ -254,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527626143834</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="renamed to firstdown_cloud">
+      <created>1527692645942</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1527692645942</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -290,20 +296,21 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="187" y="130" width="1865" height="923" extended-state="0" />
+    <frame x="297" y="218" width="1774" height="1092" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5008043" side_tool="true" visible="true" weight="0.3286219" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5011274" side_tool="true" visible="true" weight="0.35559922" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919572" weight="0.42638397" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988726" visible="true" weight="0.35559922" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.26380697" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19034852" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20011275" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.49919572" visible="true" weight="0.3286219" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49919572" weight="0.3286219" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -314,7 +321,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.26380697" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +337,8 @@
     <MESSAGE value="removed hello world code" />
     <MESSAGE value="added S3 import" />
     <MESSAGE value="refactored package directory and moved everything into it" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored package directory and moved everything into it" />
+    <MESSAGE value="renamed to firstdown_cloud" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed to firstdown_cloud" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/setup.py">
@@ -412,13 +419,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/hello_test.py" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__init__.py" />
     <entry file="file://$PROJECT_DIR$/tests/aspLog_test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -463,7 +463,7 @@
     <entry file="file://$PROJECT_DIR$/firstdown_cloud/aspLog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#1#37#0" expanded="true" />
           </folding>
@@ -472,8 +472,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="135" column="12" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
         </state>
       </provider>
     </entry>
