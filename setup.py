@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='firstdown_cloud',
-    version='0.0.1',
+    version='0.0.2',
     url='https://github.jpl.nasa.gov/mpowell/FirstDownCloud',
     license='',
     author='Mark Powell',
