@@ -1,14 +1,15 @@
-    node('CAE-Jenkins2-DH-Agents-Linux') {
-        stages {
-            stage('Checkout') {
-                checkout scm
-            }
+node('CAE-Jenkins2-DH-Agents-Linux') {
+    stages {
+        stage('Checkout') {
+            checkout scm
+        }
 
+        def customImage = docker.build("my-image:${env.BUILD_ID}")
+
+        customImage.inside {
             stage('Test') {
-                agent { dockerfile true }
-                steps {
-                    sh 'python setup.py test'
-                }
+                sh 'python setup.py test'{
             }
         }
     }
+}
