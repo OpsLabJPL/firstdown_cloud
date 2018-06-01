@@ -1,2 +1,2 @@
-FROM python:2.7-alpine
+FROM python:2
 RUN apk add gcc g++ make libffi-dev openssl-dev
