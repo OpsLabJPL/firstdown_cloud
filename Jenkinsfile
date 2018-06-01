@@ -7,7 +7,7 @@ node('CAE-Jenkins2-DH-Agents-Linux') {
         sh 'docker logout'
     }
 
-    docker.image('python:2.7-alpine').inside {
+    docker.image('python:2').inside {
         stage('Gather dependencies') {
             sh 'pip install -r requirements.txt'
         }
