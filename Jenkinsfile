@@ -1,7 +1,19 @@
 node('CAE-Jenkins2-DH-Agents-Linux') {
-    checkout scm
-    def customImage = docker.build("my-image:${env.BUILD_ID}")
-    customImage.inside {
-        sh 'python setup.py test'
+    stage('Checkout') {
+        checkout scm
+    }
+
+    stage('Reset docker credentials') {
+        sh 'docker logout'
+    }
+
+    docker.image('python:2.7-alpine').inside {
+        stage('Gather dependencies') {
+            sh 'pip install -r requirements.txt'
+        }
+
+        stage('Build') {
+            sh 'python setup.py test'
+        }
     }
 }
