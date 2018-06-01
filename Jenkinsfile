@@ -9,7 +9,7 @@ node('CAE-Jenkins2-DH-Agents-Linux') {
 
     docker.image('python:2.7-alpine').inside {
         stage('Gather dependencies') {
-            sh 'python setup.py install --user'
+            sh 'python setup.py install'
         }
 
         stage('Test') {
