@@ -12,7 +12,7 @@ setup(
 
     packages=['firstdown_cloud','tests'],
     package_data={'firstdown_cloud': ['README.rst', 'LICENSE.txt'],
-                  'tests': ['tests/auto_processed.log']},
+                  'tests': ['auto_processed.log']},
     include_package_data=True,
     test_suite='tests',
 
