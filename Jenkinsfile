@@ -13,7 +13,7 @@ node('CAE-Jenkins2-DH-Agents-Linux') {
         }
 
         stage('Build') {
-            sh 'python setup.py test'
+            sh 'export USER=mpowell; export AWS_DEFAULT_REGION=us-gov-west-1; python setup.py test'
         }
     }
 }
