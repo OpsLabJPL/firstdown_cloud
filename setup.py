@@ -10,10 +10,9 @@ setup(
     description='Python library for securely publishing JPL ops summary data to Govcloud.',
     long_description='Python library for securely publishing JPL ops summary data to Govcloud.',
 
-    packages=['firstdown_cloud','tests'],
-    package_data={'firstdown_cloud': ['README.rst', 'LICENSE.txt'],
-                  'tests': ['auto_processed.log']},
-    include_package_data=True,
+    packages=['firstdown_cloud'],
+    package_data={'firstdown_cloud': ['README.rst', 'LICENSE.txt']},
+
     test_suite='tests',
 
     install_requires=['pycrypto','boto3'],
