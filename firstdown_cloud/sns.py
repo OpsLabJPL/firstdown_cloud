@@ -2,7 +2,9 @@ import boto3
 
 
 def get_client():
-    return boto3.client('sns')
+    sns = boto3.client('sns')
+    print sns._endpoint.host
+    return sns
 
 
 def create_topic(topic_name):

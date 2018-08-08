@@ -16,6 +16,11 @@ class SNSTestCase(unittest.TestCase):
         return topic_arn
 
 
+    def test_get_client(self):
+        sns = get_client()
+        self.assertEqual(sns._endpoint.host, 'https://sns.us-gov-west-1.amazonaws.com')
+
+
     @mock_sns
     def test_sns_publish(self):
         topic_arn = self.__moto_setup()
