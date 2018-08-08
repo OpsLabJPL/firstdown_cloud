@@ -14,7 +14,6 @@ class S3TestCase(unittest.TestCase):
         self.key = 'style.css'
         self.value = 'value'
 
-
     @mock_s3
     def __moto_setup(self):
         s3 = get_client()
