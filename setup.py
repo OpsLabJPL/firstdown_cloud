@@ -17,7 +17,7 @@ setup(
 
     install_requires=['pycrypto','boto3'],
 
-    tests_require=['moto'],
+    tests_require=['moto==1.3.3'],
 
     entry_points={
         'console_scripts': [
