@@ -33,6 +33,11 @@ def put_object(bucket, key, body):
     s3.put_object(Bucket=bucket, Key=key, Body=body)
 
 
+def put_publicly_readable_json(bucket, key, json):
+    s3 = get_client()
+    s3.put_object(Bucket=bucket, Key=key, Body=json, ContentType='application/json', ACL='public-read')
+
+
 def main():
     for bucket in list_buckets():
         print '[ {} ]'.format(bucket)
