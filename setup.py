@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='firstdown_cloud',
-    version='0.0.2',
+    version='0.0.3',
     url='https://github.com/OpsLabJPL/firstdown_cloud',
     license='Apache 2.0',
     author='Mark Powell',
