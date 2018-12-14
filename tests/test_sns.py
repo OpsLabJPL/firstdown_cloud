@@ -51,7 +51,7 @@ class SNSTestCase(unittest.TestCase):
         self.assertTrue("thread-id" not in aps)
 
         # for APNS_SANDBOX, replaces APNS with APXS_SANDBOX
-        payload["APNS"] = {"aps": aps}
+        payload["APNS"] = json.dumps({"aps": aps})
 
         gcm = make_gcm_payload(title=category, message=message, topic=category)
         gcm["data"]["time"] = time_str
@@ -59,7 +59,7 @@ class SNSTestCase(unittest.TestCase):
         self.assertEqual(category, gcm["notification"]["title"])
         self.assertEqual(message, gcm["notification"]["body"])
 
-        payload["GCM"] = gcm
+        payload["GCM"] = json.dumps(gcm)
 
         json_str = json.dumps(payload, sort_keys=True, indent=4, separators=(',', ': '))
         publish_message(topic_arn=topic_arn, message=json_str)

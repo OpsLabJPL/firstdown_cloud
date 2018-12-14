@@ -14,7 +14,7 @@ def create_topic(topic_name):
 
 def publish_message(topic_arn, message):
     sns = get_client()
-    sns.publish(TopicArn=topic_arn, Message=message)
+    sns.publish(TopicArn=topic_arn, Message=message, MessageStructure='json')
 
 
 def make_apns_payload(alert, sound, badge, category, thread_id):
